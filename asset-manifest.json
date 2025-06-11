@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/roma-reverie/static/css/main.011bbe3f.css",
-    "main.js": "/roma-reverie/static/js/main.19bb12df.js",
+    "main.js": "/roma-reverie/static/js/main.24c1cdc3.js",
     "static/media/slick.svg": "/roma-reverie/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/roma-reverie/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/roma-reverie/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/roma-reverie/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/roma-reverie/index.html",
     "main.011bbe3f.css.map": "/roma-reverie/static/css/main.011bbe3f.css.map",
-    "main.19bb12df.js.map": "/roma-reverie/static/js/main.19bb12df.js.map"
+    "main.24c1cdc3.js.map": "/roma-reverie/static/js/main.24c1cdc3.js.map"
   },
   "entrypoints": [
     "static/css/main.011bbe3f.css",
-    "static/js/main.19bb12df.js"
+    "static/js/main.24c1cdc3.js"
   ]
 }
