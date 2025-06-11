@@ -1,0 +1,192 @@
+/* 깔끔한 기본 설정 */
+.community-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f5f5;
+  font-family: 'Gotham Medium', sans-serif;
+  padding: 300px 100px 200px 100px; /* 위, 오른쪽, 아래, 왼쪽 */
+  box-sizing: border-box;
+}
+
+/* COMMUNITY. 제목 */
+.title {
+  margin-top: 80px;
+  margin-left: 100px;
+  color: #ED1E21;
+  font-size: 137.67px;
+  font-family: 'Gotham Black';
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+/* 글쓰기 버튼 */
+.write-button {
+  background: #ed1e21;
+  color: white;
+  font-size: 20px;
+  font-family: 'VT323';
+  padding: 12.42px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  margin-bottom: 60px;
+}
+
+/* 게시물 박스 */
+.post-container {
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  gap: 37px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 프로필 영역 */
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-pic {
+  width: 177px;
+  height: 177px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.username {
+  font-size: 48px;
+  font-family: 'Gotham Black';
+  font-weight: 900;
+  color: #1b1b1b;
+  text-transform: uppercase;
+}
+
+.likes-comments {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  font-family: 'VT323';
+  color: #747373;
+}
+
+/* 태그 */
+.tags {
+  display: flex;
+  gap: 25px;
+}
+
+.tag {
+  background: #e6e6e6;
+  border-radius: 41.55px;
+  padding: 8.31px 41.55px;
+  font-size: 30px;
+  font-family: 'VT323';
+  color: #747373;
+}
+
+/* 이미지 */
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 388px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.like-icon {
+  font-size: 40px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s ease;
+  color: black; /* 처음은 검정 */
+}
+
+.like-icon:hover {
+  color: #ed1e21; /* 호버 시 빨강 */
+}
+
+.like-icon.liked {
+  color: #ed1e21; /* 클릭 후 빨강 고정 */
+  cursor: default;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-bubble {
+  background: #e0e0e0;
+  width: 700px;
+  padding: 40px;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.post-form button[type="submit"] {
+  background: #ed1e21;
+  color: white;
+  font-family: 'VT323';
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
